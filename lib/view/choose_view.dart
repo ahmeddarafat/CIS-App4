@@ -38,9 +38,9 @@ class _ChooseViewState extends State<ChooseView> {
       response = await DioHelper.getData(
           url: EndPoints.quotesByAnime, query: {"title": anime});
     }
-    for (Map<String, dynamic> data in response.data) {
-      quotes.add(QuoteModel.fromJson(data));
-    }
+    response.data.forEach((e){
+      quotes.add(QuoteModel.fromJson(e));
+    });
   }
 
   @override
