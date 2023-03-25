@@ -1,6 +1,5 @@
-import 'package:cis_app4/netwrok/dio_helper.dart';
-import 'package:cis_app4/view/choose_view.dart';
-import 'package:cis_app4/view/home_view.dart';
+import 'data/netwrok/dio_helper.dart';
+import 'presentation/view/choose_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {

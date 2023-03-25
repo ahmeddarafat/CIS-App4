@@ -1,6 +1,4 @@
-import 'package:cis_app4/model/quote_model.dart';
-import 'package:cis_app4/netwrok/dio_helper.dart';
-import 'package:cis_app4/netwrok/end_points.dart';
+import '../../data/model/quote_model.dart';
 import 'package:flutter/material.dart';
 
 class HomeView extends StatefulWidget {
